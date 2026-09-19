@@ -76,7 +76,7 @@ export function ExploreView({ state, onTravel, onWander, onStats, onTitle }: Pro
       </div>
 
       <h3 className="muted" style={{ fontSize: '0.85rem', marginTop: 4 }}>
-        Domme Mansions
+        Domme Suites
       </h3>
       <div className="location-grid">
         {mansions.map((l) => {

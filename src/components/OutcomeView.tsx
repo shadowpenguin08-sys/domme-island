@@ -1,4 +1,5 @@
 import type { OutcomeState, PlayerState } from '../types/game';
+import { Portrait } from './Portrait';
 
 interface Props {
   outcome: OutcomeState;
@@ -12,6 +13,13 @@ export function OutcomeView({ outcome, player, onContinue }: Props) {
       <div className={`outcome-banner ${outcome.won ? 'win' : 'lose'}`}>
         {outcome.won ? 'You made them cum' : 'You came first'}
       </div>
+
+      <Portrait
+        characterId={outcome.enemyId}
+        name={outcome.enemyName}
+        size="md"
+        className="encounter-portrait"
+      />
 
       <div className="card prose">
         <p>

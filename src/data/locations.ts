@@ -6,25 +6,25 @@ export const LOCATIONS: Location[] = [
     name: 'Obsidian Beach',
     emoji: '🏖️',
     description:
-      'Black sand and warm tide. Minion Dommes patrol the shoreline looking for soft tourists to ruin.',
+      'Black sand and warm tide. Resort Dommes patrol the shoreline looking for soft guests to ruin.',
     encounterChance: 0.55,
     minionPool: ['patrol_minion', 'beach_tease', 'collar_runner'],
   },
   {
     id: 'jungle',
-    name: 'Velvet Jungle',
+    name: 'Garden Paths',
     emoji: '🌴',
     description:
-      'Dense canopy, ropes hanging like invitations. Something always watches from the vines.',
+      'Lush resort gardens, rope swings, and shaded benches. Someone always watches from the hedges.',
     encounterChance: 0.6,
     minionPool: ['vine_binder', 'patrol_minion', 'whisper_scout'],
   },
   {
     id: 'ruins',
-    name: 'Temple Ruins',
+    name: 'Ceremony Wing',
     emoji: '🏛️',
     description:
-      'Crumbling stone altars still sticky with old rituals. Humiliation echoes here.',
+      'A private dungeon suite off the cliff path — candles, leather, and a guest book of ruined pride.',
     encounterChance: 0.5,
     minionPool: ['altar_acolyte', 'whisper_scout', 'collar_runner'],
   },
@@ -33,13 +33,13 @@ export const LOCATIONS: Location[] = [
     name: 'Night Market',
     emoji: '🏮',
     description:
-      'Lanterns, leather stalls, and public displays. Bargains cost dignity.',
+      'Lanterns, leather stalls, and public demos. Bargains cost dignity.',
     encounterChance: 0.45,
     minionPool: ['market_vendor', 'beach_tease', 'patrol_minion'],
   },
   {
     id: 'cliffs',
-    name: 'Moan Cliffs',
+    name: 'Cliff Overlook',
     emoji: '🌊',
     description:
       'Wind-scoured heights overlooking the sea. Dommes bring conquests here to finish them.',
@@ -68,10 +68,10 @@ export const LOCATIONS: Location[] = [
   },
   {
     id: 'mansion_hex',
-    name: 'Hex\'s Thorn Spire',
-    emoji: '🦇',
+    name: 'Hex\'s Neon Penthouse',
+    emoji: '💜',
     description:
-      'A crooked tower wrapped in thorns and neon runes. Domme Hex treats minds like toys.',
+      'A top-floor Chaos Suite: neon, bass, and a playroom that never sleeps. Domme Hex treats minds like toys.',
     encounterChance: 0,
     minionPool: [],
     mansionOf: 'domme_hex',

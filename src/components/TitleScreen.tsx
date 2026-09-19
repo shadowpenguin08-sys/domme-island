@@ -19,9 +19,10 @@ export function TitleScreen({ hasSave, onNewGame, onContinue }: Props) {
 
       <div className="card prose">
         <p>
-          Wash ashore on an island ruled by Dommes. Wander black-sand beaches,
-          velvet jungles, and neon-thorn towers. Minions will stop you. Bosses
-          wait in mansions shaped like their cruelty.
+          Wash ashore on a private island Domme resort — black-sand beaches,
+          garden paths, a lantern night market, and cliffside suites. Guest
+          Dommes will stop you. The big three wait in mansions shaped like
+          their cruelty.
         </p>
         <p>
           Fights are climax duels: push their arousal to the brink before they

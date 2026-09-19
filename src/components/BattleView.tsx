@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import type { BattleState } from '../types/game';
 import { getMove } from '../data/moves';
+import { Portrait } from './Portrait';
 
 interface Props {
   battle: BattleState;
@@ -52,7 +53,20 @@ export function BattleView({ battle, onMove }: Props) {
         {battle.enemy.isBoss ? ' · BOSS' : ''}
       </p>
 
-      <div className="card">
+      <div className="card battle-enemy-card">
+        <Portrait
+          characterId={battle.enemyTemplateId}
+          name={battle.enemy.name}
+          size="lg"
+          className="battle-enemy-portrait"
+        />
+        <div className="battle-enemy-meta">
+          <strong>{battle.enemy.name}</strong>
+          <span className="muted">
+            {battle.enemy.title}
+            {battle.enemy.isBoss ? ' · Boss' : ''}
+          </span>
+        </div>
         <Meter
           label={`You — arousal`}
           value={battle.player.arousal}

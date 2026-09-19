@@ -44,18 +44,18 @@ export const DOMMES: Record<string, CharacterTemplate> = {
     id: 'domme_hex',
     name: 'Domme Hex',
     age: 26,
-    title: 'The Thorn Witch',
-    personality: 'Chaotic, bratty-top energy, mind games, sensation overload.',
+    title: 'Neon Chaos Domme',
+    personality: 'Chaotic neon club Domme — brat-top energy, mind games, sensation overload.',
     description:
-      'Hex (26) cackles from her thorn spire, neon runes flickering. She mixes mockery, magic-flavored dirty talk, and vicious sensation play.',
+      'Hex (26) runs the Chaos Suite like a private club afterparty: blacklight, bass through the floor, and toys laid out like a DJ set. She mixes mockery, filthy dirty talk, and vicious sensation play.',
     specialties: ['mind_break', 'ice_and_fire', 'tongue_service', 'ruined_touch', 'spit_and_step'],
     maxArousal: 95,
     isBoss: true,
     mansionId: 'mansion_hex',
     encounterText:
-      'Hex drops from a rafter upside-down, grinning. "Ooh, fresh nerves. Let\'s scramble them until you cream yourself stupid."',
+      'Hex drops from the loft railing upside-down, neon catching her grin. "Ooh, fresh nerves. Let\'s scramble them until you cream yourself stupid."',
     defeatText:
-      'Hex laughs through her own climax, thorns and neon blurring. "Fuck — okay, okay, you win, you absolute menace." Orgasm extracted.',
+      'Hex laughs through her own climax, neon lights blurring. "Fuck — okay, okay, you win, you absolute menace." Orgasm extracted.',
     victoryText:
       'Hex overloads every sense until you climax helplessly, drooling praise. "Told you. Brains are just another erogenous zone."',
   },
@@ -81,8 +81,8 @@ export const MANSION_FLAVOR: Record<string, string[]> = {
     'Ivory\'s study holds contracts written in elegant script. Consent, ownership, footnotes.',
   ],
   domme_hex: [
-    'Thorns scrape the walls. Neon sigils pulse like a heartbeat.',
-    'Hex\'s "lab" is toys, candles, and notebooks titled How to Break Brats Faster.',
-    'Somewhere above, Hex sings off-key about melting minds. Charming.',
+    'Blacklight paints the penthouse pink and violet. The bass never quite stops.',
+    'Hex\'s playroom is toys, wax, clamps, and sticky notes titled How to Break Brats Faster.',
+    'Somewhere above, Hex sings off-key into a mic about melting minds. Charming.',
   ],
 };

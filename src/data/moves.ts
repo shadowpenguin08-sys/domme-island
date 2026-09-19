@@ -165,7 +165,7 @@ export const MOVES: Record<string, Move> = {
     selfRisk: 3,
     tags: ['verbal', 'control'],
     narratives: [
-      '{actor}\'s soft command hits like a spell; {target}\'s body answers first.',
+      '{actor}\'s soft command hits like a collar click; {target}\'s body answers first.',
       '"Come closer. Beg prettier." {actor}\'s voice leaves {target} dripping compliance.',
       '{actor} narrates {target}\'s next shudder — and it arrives on cue.',
     ],

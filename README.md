@@ -26,13 +26,14 @@ Tone: humiliation / degradation / femdom RP, delivered as narrative text with bi
 |-------|-----|--------|
 | **Lady Scarlet** | 29 | Theatrical sadism, ruined orgasms, public shame |
 | **Mistress Ivory** | 32 | Cold elegance, psychological ownership |
-| **Domme Hex** | 26 | Chaotic mind games, sensation overload |
+| **Domme Hex** | 26 | Neon club chaos, brat-top sensation play |
 
 ## Tech
 
 - Vite + React + TypeScript
 - No backend — pure client SPA
 - Data-driven content under `src/data/`
+- AI portraits for Dommes/minions in battle & encounter UI
 
 ## Run locally
 
@@ -57,4 +58,4 @@ Progress is stored in the browser under key `domme-island-save-v1`. Clearing sit
 
 ## Out of scope
 
-Multiplayer, accounts, payments, images, app stores.
+Multiplayer, accounts, payments, app stores.

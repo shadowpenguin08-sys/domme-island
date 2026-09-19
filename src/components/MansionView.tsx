@@ -1,5 +1,6 @@
 import type { GameState } from '../types/game';
 import { getDomme } from '../data/dommes';
+import { Portrait } from './Portrait';
 
 interface Props {
   state: GameState;
@@ -15,6 +16,12 @@ export function MansionView({ state, onChallenge, onLookAround, onLeave }: Props
 
   return (
     <div className="screen">
+      <Portrait
+        characterId={domme.id}
+        name={domme.name}
+        size="lg"
+        className="encounter-portrait"
+      />
       <h2>
         {domme.name}, {domme.age}
       </h2>
@@ -41,7 +48,7 @@ export function MansionView({ state, onChallenge, onLookAround, onLeave }: Props
           <span className="btn-sub">First to orgasm loses</span>
         </button>
         <button type="button" className="btn" onClick={onLookAround}>
-          Look around the mansion
+          Look around the suite
         </button>
         <button type="button" className="btn btn-ghost" onClick={onLeave}>
           Leave

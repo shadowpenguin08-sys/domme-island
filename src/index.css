@@ -351,3 +351,68 @@ h2 {
   margin-top: auto;
   padding-top: 12px;
 }
+
+
+.portrait {
+  margin: 0 auto;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  flex-shrink: 0;
+}
+
+.portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.portrait-sm {
+  width: 72px;
+  height: 72px;
+  border-radius: 14px;
+}
+
+.portrait-md {
+  width: min(160px, 42vw);
+  height: min(160px, 42vw);
+  max-width: 160px;
+}
+
+.portrait-lg {
+  width: min(220px, 70vw);
+  height: min(220px, 70vw);
+  max-width: 220px;
+}
+
+.encounter-portrait {
+  margin-bottom: 4px;
+}
+
+.battle-enemy-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.battle-enemy-portrait {
+  margin: 0;
+}
+
+.battle-enemy-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  text-align: center;
+  width: 100%;
+}
+
+.battle-enemy-card .meter-block {
+  width: 100%;
+}

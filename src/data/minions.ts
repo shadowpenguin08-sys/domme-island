@@ -25,7 +25,7 @@ export const MINIONS: Record<string, CharacterTemplate> = {
     age: 23,
     title: 'Beach Tease',
     personality: 'Playful, mean, sun-drunk humiliation.',
-    description: 'Lana (23) collects tourists on the black sand for light, cruel fun.',
+    description: 'Lana (23) collects guests on the black sand for light, cruel fun.',
     specialties: ['teasing_words', 'spit_and_step', 'desperate_grind', 'boot_worship'],
     maxArousal: 65,
     isBoss: false,
@@ -57,14 +57,15 @@ export const MINIONS: Record<string, CharacterTemplate> = {
     id: 'vine_binder',
     name: 'Binder Domme Mara',
     age: 27,
-    title: 'Jungle Binder',
-    personality: 'Slow, methodical rope and denial.',
-    description: 'Mara (27) ties wanderers into the velvet jungle\'s living restraints.',
+    title: 'Garden Rope Domme',
+    personality: 'Slow, methodical shibari and denial among the resort gardens.',
+    description:
+      'Mara (27) keeps rope kits stashed along the garden paths. She ties guests into elegant, humiliating displays between the hedges.',
     specialties: ['ruined_touch', 'edge_stroke', 'ice_and_fire', 'mind_break'],
     maxArousal: 75,
     isBoss: false,
     encounterText:
-      'Vines twitch as Mara steps out. "Hold still. Struggle makes prettier knots."',
+      'Mara steps out from the hedges, coils of rope over one shoulder. "Hold still. Struggle makes prettier knots."',
     defeatText:
       'Mara cums against her own ropes, biting off a moan. "Untie me before someone sees."',
     victoryText:
@@ -76,7 +77,7 @@ export const MINIONS: Record<string, CharacterTemplate> = {
     age: 22,
     title: 'Whisper Scout',
     personality: 'Quiet, psychological, loves verbal undoing.',
-    description: 'Vesper (22) appears from nowhere and ruins focus with soft cruelty.',
+    description: 'Vesper (22) slips between lounge and path and ruins focus with soft cruelty.',
     specialties: ['mind_break', 'teasing_words', 'velvet_command', 'focus_breath'],
     maxArousal: 68,
     isBoss: false,
@@ -89,20 +90,21 @@ export const MINIONS: Record<string, CharacterTemplate> = {
   },
   altar_acolyte: {
     id: 'altar_acolyte',
-    name: 'Acolyte Domme Sable',
+    name: 'Ceremony Domme Sable',
     age: 28,
-    title: 'Temple Acolyte',
-    personality: 'Ritualistic, solemn, deeply filthy under the liturgy.',
-    description: 'Sable (28) still "worships" at the ruins — with bodies as offerings.',
+    title: 'Private Dungeon Host',
+    personality: 'Ritualistic, solemn, deeply filthy under the protocol.',
+    description:
+      'Sable (28) hosts formal scenes in the cliffside ceremony room — padded bench, candles, and a guest book of wrecked egos.',
     specialties: ['strap_thrust', 'ownership_mark', 'spank_count', 'mind_break'],
     maxArousal: 78,
     isBoss: false,
     encounterText:
-      'Sable gestures to a worn altar. "Offer yourself. The stones remember every moan."',
+      'Sable gestures to the padded bench. "Offer yourself. House rules: you moan on cue."',
     defeatText:
-      'Ritual composure shatters; Sable cums across the altar stones. "Blasphemous… win."',
+      'Protocol shatters; Sable cums across the ceremony bench. "Off-script… win."',
     victoryText:
-      'She fucks a climax out of you as "tithe." "The temple accepts. Barely."',
+      'She fucks a climax out of you as "house tithe." "The room accepts. Barely."',
   },
   market_vendor: {
     id: 'market_vendor',
